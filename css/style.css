@@ -1,0 +1,208 @@
+/* offset */
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    width: 1178px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+.clearfix{
+    clear: both;
+}
+p, li, a{
+    font-family: 'Titillium Web', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+a:hover{
+    color: #f53f1a;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+p{
+    text-align: justify;
+    line-height: 1.5;
+}a{
+    font-weight: 700;
+    color: #365e11;
+}
+h1, h2, h3, h4, h5, h1 a, h3 a{
+    font-family: 'Grape Nuts', cursive;
+}
+h2{
+    background: #f53f1a;
+        color: #fff;
+        padding: 0.5em 1em;
+        margin: 1.5em 0 0;
+        font-size: 1.3em;
+        font-family: 'Libre Baskerville', serif;
+}
+/* header */
+header{
+    padding: 20px 0;
+}
+header .left{
+    width: 30%;
+}
+header .right{
+    width: 70%;
+}
+header .right .nav{
+    padding: 5px 0 20px;
+    
+}
+header ul{
+    float: right;
+}
+header li{
+    padding-left: 10px;
+}
+img{
+    width: 100%;
+}
+header h1 a{
+    color: #4b4c6a;
+    font-weight: bold;
+}
+/* banner  */
+
+/* .banner .image-back{
+    background-image: url("images/santorini.jpeg");
+    height: 30em;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 0 0 8px 8px white inset;
+} */
+.banner .image-back{
+    background-image: url("../images/santorini.jpeg");
+    height: 30em;
+    background-size: 100%;
+    background-size: cover;
+    background-position: center; 
+  background-repeat: no-repeat; 
+    /* box-shadow: 0 0 8px 8px white inset; */
+
+  transition: all .45s ease-in-out;
+}
+
+.banner .image-back:hover{
+    background-image: url("../images/blog1.jpeg");
+    
+}
+
+/* main body  */
+.main-body .left{
+    width: 70%;
+}
+.main-body .right{
+    width: 30%;
+}
+.main-body img{
+    width: 35%;
+    height: 16em;
+    object-fit: cover;
+    float: left;
+}
+.main-body h1, .main-body h2{
+    padding-bottom: .7em;
+}
+.main-body .blog-para{
+    width: 60%;
+    float: right;
+    padding: 0 1em;
+}
+.main-body .blog-content{
+    padding: 1em 0;
+}
+.main-body .right{
+    padding-top: 1em;
+}
+.main-body ol li{
+    list-style: none;
+    padding-bottom: .5em;
+}
+.main-body ol{
+    padding:1em;
+}
+
+footer{
+    background-color: #ccc;
+    color: #fff;
+    padding: 1.2em 0;
+}
+/*================== TRAVEL PAGE ================*/
+.travel .left{
+    width: 30%;
+}
+.travel .right{
+    width: 68%;
+}
+.travel img{
+    height: 5em;
+    width: 20%;
+    border: #000 2px solid;
+}
+.travel .blog-para{
+    width: 69%;
+    margin-bottom: 1em;
+}
+.travel h1{
+    padding-bottom: 0;
+}
+.travel .date-time{
+    font-size: 14px;
+    color: #ccc;
+    font-weight: 600;
+    padding-bottom: 1.5em;
+}
+figure{
+    width: 27%;
+    float: left;
+}
+.travel .right .blog-content img{
+    height: 17em;
+    width: 100%;
+    border: none;
+}
+
+/*==================== Beauty Page ==================*/
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item-left {
+    
+    padding: 10px;
+    flex: 33%;
+  }
+  .flex-item-mid{
+      flex: 33%;
+      padding: 10px;
+  }
+  .flex-item-right {
+    padding: 10px;
+    flex: 33%;
+  }
+  .beauty .right img{
+      width: 100%;
+      height: 5em;
+      border: none;
+  }

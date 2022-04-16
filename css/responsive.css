@@ -1,0 +1,74 @@
+@media (max-width: 800px) {
+    .container{
+        width: 730px;
+    }
+    .left, header .left, .main-body .left{
+        width: 100%;
+        float: none;
+    }
+    .right, header .right, .main-body .right{
+        width:100%;
+        float: none;
+    }
+    .banner .image-back{
+        background-size: 100%;
+    }
+    header ul {
+        float: left;
+    }
+    header li {
+        padding-left: 0;
+        padding-right: 10px;
+    }
+    .main-body .index img{
+        height: 19em;
+    }
+    .travel img {
+        height: 7em;
+        width: 30%;
+    }
+    .travel .blog-para {
+        width: 65%;
+    }
+    .travel .blog-para h3{
+        font-size: 2em;
+    }
+}
+@media (max-width: 435px) {
+    .container{
+        width: 400px;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    .flex-container {
+      flex-direction: column;
+    }
+    .banner .image-back{
+        height: 17em;
+    }
+    .main-body img{
+        width: 100%;
+    }
+    .main-body .blog-para{
+        width: 100%;
+        float: none;
+        padding: 0;
+    }
+    .travel .right .blog-content img {
+        width: 100%;
+    }
+}
+@media (max-width: 378px) {
+    .container{
+        width: 330px;
+    }
+    
+}
+@media (max-width: 320px) {
+    .container{
+        width: 290px;
+    }
+
+    
+}
